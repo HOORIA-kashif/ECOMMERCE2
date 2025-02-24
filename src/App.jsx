@@ -6,7 +6,7 @@ import Loader from "./components/Loader";
 
 import Home from "./pages/Home";
 import Men from "./pages/Men.jsx";
-import ProductPages from "./pages/ProductPages";
+
 import Shoes from "./pages/Shoes.jsx";
 import Navbar from "./components/Navbar";
 import ProductDetail from "./pages/ProductDetail";
@@ -45,7 +45,7 @@ function App() {
               <Route path="/men/:id" element={<MD />} />
               <Route path="/Men" element={<Men />} />
               <Route path="/Women" element={<Women />} />
-              <Route path="/product-pages" element={<ProductPages />} />
+             
               <Route path="/Shoes" element={<Shoes />} />
               <Route path="/cart" element={<CartPage />} /> 
               <Route path="/BestProducts" element={<BestProducts />} /> 
